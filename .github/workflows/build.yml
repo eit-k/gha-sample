@@ -3,11 +3,11 @@ name: build
 on:
   push:
     branches: [main]
-    # paths:
-    #   - './**/*.go'
+    paths:
+      - '**/*.go'
   pull_request:
-    # paths:
-    #   - './**/*.go'
+    paths:
+      - '**/*.go'
 
 defaults:
   run:
